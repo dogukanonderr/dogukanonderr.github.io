@@ -63,7 +63,7 @@ img {
   grid-row: 1 / -1;
   align-self: center;
   text-align: center;
-  padding: 1rem;
+  padding: 0rem;
   z-index: 10;
 }
 .hero-heading {
@@ -71,22 +71,41 @@ img {
   color: antiquewhite;
   letter-spacing: 0.05rem;
   font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Vollkorn SC", serif;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .hero-headingtwo {
   font-size: 3rem;
   color: antiquewhite;
   letter-spacing: 0.05rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-weight: normal;
+
+  font-family: Arial, Helvetica, sans-serif;
 }
 .hero-text {
   font-size: 1rem;
-  margin-top: 0.4rem;
+  margin-top: 0.2rem;
   color: #c0c0c0;
   letter-spacing: 0.5rem;
   font-weight: bold;
   text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/*add medşa queries for large screens*/
+@media (min-width: 600px) {
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .hero-text-box {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+@media (min-width: 920px) {
+  .hero-heading {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
 }
