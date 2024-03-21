@@ -92,7 +92,7 @@ img {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-/*add medşa queries for large screens*/
+/*add media queries for large screens*/
 @media (min-width: 600px) {
   .hero-heading {
     font-size: 3rem;
