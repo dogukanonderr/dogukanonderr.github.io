@@ -67,7 +67,7 @@ img {
   z-index: 10;
 }
 .hero-heading {
-  font-size: 5rem;
+  font-size: 3rem;
   color: antiquewhite;
   letter-spacing: 0.05rem;
   font-weight: bold;
@@ -75,7 +75,7 @@ img {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .hero-headingtwo {
-  font-size: 3rem;
+  font-size: 1rem;
   color: antiquewhite;
   letter-spacing: 0.05rem;
   font-weight: normal;
@@ -86,7 +86,7 @@ img {
   margin-bottom: 60px;
   font-size: 1rem;
 
-  color: #999797;
+  color: #a19b9b;
   letter-spacing: 0.4rem;
   font-weight: bold;
   text-transform: uppercase;
@@ -95,6 +95,10 @@ img {
 
 /*add media queries for large screens*/
 @media (min-width: 600px) {
+  .hero-headingtwo {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
   .hero-heading {
     font-size: 3rem;
     line-height: 3rem;
@@ -108,5 +112,13 @@ img {
   .hero-heading {
     font-size: 5rem;
     line-height: 5rem;
+  }
+  .hero-headingtwo {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  .hero-text-box {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
