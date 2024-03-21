@@ -71,7 +71,7 @@ img {
   color: antiquewhite;
   letter-spacing: 0.05rem;
   font-weight: bold;
-
+  margin-top: 40px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 .hero-headingtwo {
@@ -79,14 +79,15 @@ img {
   color: antiquewhite;
   letter-spacing: 0.05rem;
   font-weight: normal;
-
+  margin-bottom: 0.5px;
   font-family: Arial, Helvetica, sans-serif;
 }
 .hero-text {
+  margin-bottom: 60px;
   font-size: 1rem;
-  margin-top: 0.2rem;
-  color: #c0c0c0;
-  letter-spacing: 0.5rem;
+
+  color: #999797;
+  letter-spacing: 0.4rem;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
